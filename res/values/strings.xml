@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aurora</string>
+
+    <string name="production">Production (table)</string>
+    <string name="energy">Production (graph)</string>
+    <string name="temperature">Temperature</string>
+    <string name="power">Power</string>
+    <string name="current">Current</string>
+    <string name="voltage">Voltage</string>
+
+    <string name="production_daily">Daily</string>
+    <string name="production_total">Total</string>
+    <string name="production_average"></string>
+    
+    <string name="prev_day">Prev day</string>
+    <string name="next_day">Next day</string>
+    <string name="this_day">Today</string>
+
+    <string name="prev_month">Prev month</string>
+    <string name="next_month">Next month</string>
+    <string name="this_month">This month</string>
+
+</resources>

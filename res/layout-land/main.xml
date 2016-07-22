@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+        android:layout_weight=".6" >
+
+        <ImageView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+		    android:src="@drawable/roof_portrait"
+		    android:contentDescription="@string/app_name"
+        />
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+        android:layout_weight=".4" >
+
+        <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="0.33"
+		    android:orientation="horizontal" >
+            
+	        <Button
+		        android:id="@+id/button_production"
+		        android:layout_height="fill_parent"
+		        android:layout_width="fill_parent"
+		        android:layout_weight=".5"
+		        android:text="@string/production"
+		        android:drawableLeft="@drawable/text"
+		        android:onClick="showProduction" />
+		    
+		    <Button
+		        android:id="@+id/button_energy"
+		        android:layout_height="fill_parent"
+		        android:layout_width="fill_parent"
+		        android:layout_weight=".5"
+		        android:text="@string/energy"
+		        android:drawableLeft="@drawable/chart"
+		        android:onClick="showEnergy" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="0.33"
+		    android:orientation="horizontal" >
+        
+		    <Button
+		        android:id="@+id/button_temperature"
+		        android:layout_height="fill_parent"
+		        android:layout_width="fill_parent"
+		        android:layout_weight=".5"
+		        android:text="@string/temperature"
+		        android:drawableLeft="@drawable/t"
+		        android:onClick="showTemperature" />
+		    
+	        <Button
+		        android:id="@+id/button_power"
+		        android:layout_height="fill_parent"
+		        android:layout_width="fill_parent"
+		        android:layout_weight=".5"
+		        android:text="@string/power"
+		        android:drawableLeft="@drawable/p"
+		        android:onClick="showPower" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.33"
+		    android:orientation="horizontal" >
+        
+		    <Button
+		        android:id="@+id/button_current"
+		        android:layout_height="fill_parent"
+		        android:layout_width="fill_parent"
+		        android:layout_weight=".5"
+		        android:text="@string/current"
+		        android:drawableLeft="@drawable/i"
+		        android:onClick="showCurrent" />
+	    
+		    <Button
+		        android:id="@+id/button_voltage"
+		        android:layout_height="fill_parent"
+		        android:layout_width="fill_parent"
+		        android:layout_weight=".5"
+		        android:text="@string/voltage"
+		        android:drawableLeft="@drawable/v"
+		        android:onClick="showVoltage" />
+		    
+	    </LinearLayout>
+	    
+    </LinearLayout>
+
+</LinearLayout>
